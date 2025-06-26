@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
-    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/react-splide": "https://github.com/sahilm310/react-splide.git",
     "@splidejs/splide": "^4.1.4",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "@splidejs/splide-extension-video": "^0.8.0",
