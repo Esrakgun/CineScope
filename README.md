@@ -184,16 +184,10 @@ Daha fazla bilgi için benimle iletişime geçebilirsiniz: akgundogduesr@gmail.c
 
 
 # 📸 Ekran Görüntüsü:
-✅
+VERCEL: https://cine-scope-jmra.vercel.app/
 
+![1](https://github.com/user-attachments/assets/83a0f66e-a66a-4d52-9769-d3cd10ef34ca)
 
-
-
-
-
-
-
-
-
+https://github.com/user-attachments/assets/befda42c-035a-43f1-a931-87871e3339ca
 
 CineScope ile sinema dünyasını parmaklarınızın ucuna taşıyın! 🎥🍿
