@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+
+/* Ana body teması */
+body {
+  @apply bg-neutral-900 text-neutral-100 min-h-screen;
+}
+
+/* Yükleniyor spinner'ı */
+.loader {
+  @apply flex justify-center mt-5;
+}
+
+.icon {
+  width: 3.25em;
+  transform-origin: center;
+  animation: rotate4 2s linear infinite;
+}
+
+circle {
+  fill: none;
+  stroke: red;
+  stroke-width: 2;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash4 1.5s ease-in-out infinite;
+}
+
+/* Spinner animasyonları */
+@keyframes rotate4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash4 {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+
+  100% {
+    stroke-dashoffset: -125px;
+  }
+}
